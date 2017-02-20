@@ -1,7 +1,13 @@
+// @flow
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.less';
 import { Button } from 'antd';
+
+let a = [2, 3, 4];
+let  d=a / 1;
+
 
 class App extends Component {
   render() {
